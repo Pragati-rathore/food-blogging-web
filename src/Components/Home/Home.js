@@ -23,7 +23,10 @@ function Home() {
                   support of your body.
                 </p>
               </div>
+              <div>
               <button className="button">Explore Now!</button>
+            
+              </div>
             </div>
           </div>
           <div className="right-column">
