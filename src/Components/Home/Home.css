@@ -25,9 +25,9 @@
   flex: 1;
   width: "700px";
 
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     order: 2;
-  }
+  } */
 }
 
 .icon {
@@ -54,20 +54,20 @@
   flex-shrink: 0;
   position: relative;
 
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     order: 1;
     margin-top: 20px;
-  }
+  } */
 }
 
 .Pizza{
  
-  width: 735px;
-  height: 804px;
+  width: 100%;
+  height: auto;
   flex-shrink: 0;
 }
-@media (max-width: 375px) {
-  /* order: 1; */
+/* @media (max-width: 375px) {
+  
   .right-column {
     order: 1;
     width: 375px;
@@ -79,19 +79,21 @@
     height: 426px;
     flex-shrink: 0;
   }
-}
+} */
 
 .heading1 {
-  width: 345px;
-  height: 207px;
-  color: var(--primary, #0e2368);
-  /* font-family: Source Sans Pro; */
-  font-size: 52px;
+  width: 15rem;
+  height: 8.125rem;
+  
+  color: var(--primary, #0E2368);
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 2.375rem;
   font-style: normal;
   font-weight: 700;
-  /* line-height: 69px;  */
-  font-weight: bold;
+  line-height: 2.875rem; /* 121.053% */
 }
+
 
 .best {
   color: #e23744;
@@ -132,6 +134,21 @@
 }
 
 @media screen and (max-width: 480px)  {
+  .Box {
+
+    width: 23.63831rem;
+    height: 25.85738rem;
+    
+   
+   
+    
+  }
+  /* .Pizza{
+ 
+    width: 735px;
+    height: 804px;
+    flex-shrink: 0;
+  } */
   .heading1 {
     width: 240px;
     height: 130px;
@@ -143,6 +160,15 @@
     font-style: normal;
     font-weight: 700;
     line-height: 46px; /* 121.053% */
+    margin: auto auto;
+  }
+  .heading {
+    width: 23.63831rem;
+    height: 25.85738rem;
+    margin-top: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    
   }
 
 
@@ -151,6 +177,31 @@
   }
   .heading {
     text-align: center;
+  }
+  .right-column {
+    flex: 1;
+    text-align: right;
+    width: 23.63831rem;
+    height: 25.85738rem;
+    
+    
+    position: relative;
+  
+    /* @media (max-width: 768px) {
+      order: 1;
+      margin-top: 20px;
+    } */
+  }
+  .icon{
+    display: none;
+  }
+  .left-column {
+    width: 23.63831rem;
+    height: 25.85738rem;
+  
+    /* @media (max-width: 768px) {
+      order: 2;
+    } */
   }
 }
 
