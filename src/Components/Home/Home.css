@@ -1,14 +1,19 @@
 .Box {
 
-  width: 90rem;
-  height: 50.25rem;
+  
  
   
+}
+body{
+  /* background-color: black; */
+  margin: auto auto ;
 }
 
 .flex-row {
   display: flex;
   flex-direction: row;
+  width: 90rem;
+  height: 50.25rem;
 
   /* @media screen and (max-width: 768px) {
     flex-direction: column;
@@ -133,8 +138,7 @@ line-height: 1.713rem; /* 166.667% */
 @media screen and (max-width: 480px)  {
   .Box {
 
-    width: 23.63831rem;
-    height: 25.85738rem;
+    height: 50.5rem;
     
    
    
@@ -158,6 +162,7 @@ line-height: 1.713rem; /* 166.667% */
     font-weight: 700;
     line-height: 46px; /* 121.053% */
     margin: auto auto;
+    margin-top: 4.71rem;
   }
   .best {
     color: #e23744;
@@ -168,6 +173,7 @@ line-height: 1.713rem; /* 166.667% */
     font-style: normal;
     font-weight: 700;
     line-height: 46px; 
+    
   }
 
 
@@ -182,6 +188,8 @@ line-height: 1.713rem; /* 166.667% */
 
 
   .flex-row{
+    width: 23.63831rem;
+    
     flex-direction: column-reverse;
   }
   .heading {
@@ -207,7 +215,7 @@ line-height: 1.713rem; /* 166.667% */
   .left-column {
     width: 23.63831rem;
     height: 25.85738rem;
-    margin-top: 4.71rem;
+    
   
     /* @media (max-width: 768px) {
       order: 2;
@@ -219,6 +227,7 @@ line-height: 1.713rem; /* 166.667% */
   }
   
   .para p {
+    width: 15.5625rem;
     color: var(--body, #444957);
     text-align: center;
     margin-top: 1.31rem;
