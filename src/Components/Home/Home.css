@@ -1,0 +1,160 @@
+.Box {
+
+  width: 90rem;
+  height: 50.25rem;
+ 
+  
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+
+  /* @media screen and (max-width: 768px) {
+    flex-direction: column;
+  } */
+  /* @media screen and (max-width: 375px) {
+    flex-direction: column;
+  } */
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+  width: "700px";
+
+  @media (max-width: 768px) {
+    order: 2;
+  }
+}
+
+.icon {
+  font-size: 24px;
+  width: 107px;
+  height: 83px;
+  margin-top: 33px;
+  margin-left: 100px;
+}
+
+.heading {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-top: 111px;
+  margin-left: 100px;
+  text-align: left;
+}
+
+.right-column {
+  flex: 1;
+  text-align: right;
+  width: 752px;
+  height: 839px;
+  flex-shrink: 0;
+  position: relative;
+
+  @media (max-width: 768px) {
+    order: 1;
+    margin-top: 20px;
+  }
+}
+
+.Pizza{
+ 
+  width: 735px;
+  height: 804px;
+  flex-shrink: 0;
+}
+@media (max-width: 375px) {
+  /* order: 1; */
+  .right-column {
+    order: 1;
+    width: 375px;
+    height: 426px;
+  }
+  .img {
+    background-image: url("");
+    width: 375px;
+    height: 426px;
+    flex-shrink: 0;
+  }
+}
+
+.heading1 {
+  width: 345px;
+  height: 207px;
+  color: var(--primary, #0e2368);
+  /* font-family: Source Sans Pro; */
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: 69px;  */
+  font-weight: bold;
+}
+
+.best {
+  color: #e23744;
+  /* font-family: Source Sans Pro; */
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: 69px; */
+  font-weight: bold;
+}
+.para {
+  width: 345px;
+  margin-top: 26px;
+}
+
+.para p {
+  color: var(--body, #444957);
+
+  font-size: 16.445px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.408px; /* 166.667% */
+}
+
+.button {
+  margin-top: 41px;
+  width: 190px;
+  height: 63px;
+
+  padding: 14px 34px 14px 34px;
+  flex-shrink: 0;
+  border-radius: 34px;
+  background: #e23744;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.18px;
+}
+
+@media screen and (max-width: 480px)  {
+  .heading1 {
+    width: 240px;
+    height: 130px;
+    flex-shrink: 0;
+    color: var(--primary, #0e2368);
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; /* 121.053% */
+  }
+
+
+  .flex-row{
+    flex-direction: column-reverse;
+  }
+  .heading {
+    text-align: center;
+  }
+}
+
+.about{
+  width: 1440px;
+height: 653px;
+}
