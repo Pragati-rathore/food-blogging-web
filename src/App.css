@@ -42,10 +42,11 @@ body{
   align-items: center;
    margin: 0;
   padding: 0;
+  background-color: black;
 
 }
 @media (max-width: 480px) {
   body {
-    justify-content: flex-start; /* Align content to the top */
+    justify-content: flex-start;
   }
 }
