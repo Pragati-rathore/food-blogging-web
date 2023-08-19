@@ -82,26 +82,23 @@
 } */
 
 .heading1 {
-  width: 15rem;
-  height: 8.125rem;
-  
+  width: 21.5625rem;
   color: var(--primary, #0E2368);
-  text-align: center;
   font-family: Source Sans Pro;
-  font-size: 2.375rem;
+  font-size: 3.875rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 2.875rem; /* 121.053% */
+  line-height: 4.3125rem; 
 }
 
 
 .best {
   color: #e23744;
   /* font-family: Source Sans Pro; */
-  font-size: 52px;
+  font-size: 3.875rem;
   font-style: normal;
   font-weight: 700;
-  /* line-height: 69px; */
+  line-height: 69px;
   font-weight: bold;
 }
 .para {
@@ -111,11 +108,11 @@
 
 .para p {
   color: var(--body, #444957);
-
-  font-size: 16.445px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 27.408px; /* 166.667% */
+font-family: Open Sans;
+font-size: 1.02781rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.713rem; /* 166.667% */
 }
 
 .button {
